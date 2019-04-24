@@ -27,7 +27,6 @@ disp.display()
 image = Image.new('1', (width, height))
 
 draw = ImageDraw.Draw(image)
-#font = ImageFont.truetype('/home/pi/ipagp-mona.ttf', 20, encoding='unic')
 font = ImageFont.load_default()
 
 t_start = time.time()
